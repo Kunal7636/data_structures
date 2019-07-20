@@ -8,9 +8,9 @@ int main(int argc,char *argv[]){
 		n=n%l;
 	int arr[]={1,2,3,4,5,6,7,8};
 	for(int i=0;i<n;i++){
-		int temp;
+		int temp=0;
 		temp=arr[l-1];
-		for(int i=l-2;i>0;i--){
+		for(int i=l-2;i>=0;i--){
 			arr[i+1]=arr[i];
 		}
 		arr[0]=temp;
