@@ -5,6 +5,8 @@ int main(int args, char * argv[]){
 	int l=8;
 	int k=l-1;
 	int n=atoi(argv[1]);
+	if(n>l)
+		n=n%l;
 	int ab[n];
 	for(int i=0;i<n;i++){
 		ab[i]=arr[k];
