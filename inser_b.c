@@ -1,3 +1,5 @@
+//input 1 2 3 4 5
+// output 5 4 3 2 1
 #include<stdio.h>
 #include<stdlib.h>
 struct node
