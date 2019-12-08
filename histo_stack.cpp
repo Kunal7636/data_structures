@@ -31,7 +31,7 @@ int getMaxArea(int arr[],int n)
     { 
         tp = s.top(); 
         s.pop(); 
-        area_with_top = hist[tp] * (s.empty() ? i :  
+        area_with_top = arr[tp] * (s.empty() ? i :  
                                 i - s.top() - 1); 
   
         if (max_area < area_with_top) 
